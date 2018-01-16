@@ -1,0 +1,25 @@
+en:
+  discourse_narrative_bot:
+    timeout:
+      message: |-
+        Hey @%{username}, just checking in because I haven’t heard from you in a while.
+
+        - To continue, reply to me any time.
+
+        - If you’d like to skip this step, say `%{skip_trigger}`.
+
+        - To start over, say `%{reset_trigger}`.
+
+        If you’d rather not, that’s OK too.
+
+    new_user_narrative:
+      hello:
+        title: ":dog: Greetings!"
+        message: |-
+          Thanks for joining %{title}, and welcome!
+
+          - I’m not a real person, but [our friendly staff](/about) are also here to help.
+
+          - For safety reasons, we temporarily limit what new users can do. You’ll gain new abilities (and [badges](/badges)) as we get to know you.
+
+          - We believe in [civilized community behavior](/guidelines) at all times.
